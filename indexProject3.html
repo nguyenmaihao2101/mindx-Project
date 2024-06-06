@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleProject3.css">
+
+</head>
+<body>
+    <div class="header"> 
+        <div class="logo">
+            <img src="./Logo.png" alt="" class="center">    
+        </div>  
+
+        <div class="title gap16">
+            <img src="./MenuFold.png" alt="" class="center" height="16" width="16">
+            <h2 class="HeThong">HỆ THỐNG ĐÁNH GIÁ MỨC ĐỘ CHUYỂN ĐỔI SỐ - AGRIBANK DBI</h2> 
+        </div>
+
+        <div class="avatar">
+            <img src="./Ellipse 13.png" alt="" class="center">            
+        </div>
+    </div>        
+
+    <div class="body">
+        <div class="SideBar">
+            <button class="TruCot">
+                <img src="./icon-wrapper.png" alt="" class="center" height="14" width="14">
+                <a>Quản lý Trụ cột</a> 
+            </button>
+            <button class="BoChiSo" style="background-color:  rgba(178, 28, 63, 1); color: white;">
+                <img src="./icon-wrapper2.png" alt="" class="center" height="14" width="14">
+                <a>Quản lý Bộ chỉ số</a> 
+            </button>
+            <button class="BaiDanhGia">
+                <img src="./icon-wrapper3.png" alt="" class="center" height="14" width="14">
+                <a>Quản lý Bài đánh giá</a> 
+            </button>
+            <button class="BaiViet">
+                <img src="./icon-wrapper4.png" alt="" class="center" height="14" width="14">
+                <a>Quản lý Bài viết</a> 
+            </button>
+            <button class="TaiKhoan">
+                <img src="./icon-wrapper5.png" alt="" class="center" height="14" width="14">
+                <a>Quản lý Tài khoản</a> 
+            </button>
+            <button class="BaoCao">
+                <img src="./icon-wrapper6.png" alt="" class="center" height="14" width="14">
+                <a>Báo cáo</a> 
+            </button>
+        </div>
+
+        <main class="container">
+            <p>Quản lý Bộ chỉ số</p>
+            <div class="arrow">
+                <a href="./indexProject.html"><img src="./ArrowLeft.png" alt="" class="center" height="14" width="14"></a>
+                <b>Quản lý Bộ chỉ số</b>         
+            </div>
+
+            <div class="search">
+                <input class="form-control" placeholder="Nhập dữ liệu tìm kiếm">
+                <button type="button" class="btn"><img src="./search.png" alt="" class="center" height="14" width="14">Tìm kiếm</button>
+            </div>   
+            
+            <div class="mainContent">        
+                <div class="DanhSach">
+                    <b>Danh sách Bộ chỉ số</b>
+                    <button class="ThemBoChiSo" >
+                        <a href="./indexProject4.html" style="text-decoration:none">Thêm mới Bộ chỉ số</a> 
+                    </button>                
+                </div>
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Mã Bộ chỉ số</th>
+                        <th>Tên Bộ chỉ số</th>
+                        <th>Người thực hiện</th>
+                        <th>Số câu hỏi</th>
+                        <th>Ngày thêm</th>
+                        <th>Ngày hiệu lực</th>
+                        <th>Ngày kết thúc</th>
+                        <th>Trạng thái</th>
+                        <th>Thao tác</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>BCS202201</td>
+                        <td>Bộ chỉ số đánh giá mức độ chuyển đổi số năm 2022</td>
+                        <td>Trụ sở chính</td>
+                        <td>320</td>
+                        <td>28/12/2022</td>
+                        <td>28/12/2022</td>
+                        <td>28/12/2022</td>
+                        <td><button class="InactiveStatus">INACTIVE</button></td>
+                        <td><button class="Delete" id="NoDelete2">Xóa</button></td>
+                    </tr>
+                    <tr>
+                        <td>BCS202202</td>
+                        <td>Bộ chỉ số đánh giá mức độ chuyển đổi số năm 2022</td>
+                        <td>Chi nhánh loại I</td>
+                        <td>320</td>
+                        <td>28/12/2022</td>
+                        <td>28/12/2022</td>
+                        <td>28/12/2022</td>
+                        <td><button class="InactiveStatus">INACTIVE</button></td>
+                        <td><button class="Delete" id="NoDelete1">Xóa</button></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div class="pagination">
+                    <a class=>1-6 trên 6</a>
+                    <a href="#">&lsaquo;</a>
+                    <a href="#">1</a>
+                    <a href="#">&rsaquo;</a>
+                    <a href="#">10 / trang</a>
+                </div>
+            </div>    
+        </main>
+    </div>
+
+
+    <footer class="footer" style="margin-left: 500">
+        <div class="BanQuyen spaced-span span-block">
+            <img src="./copyright.png">Bản quyền thuộc Agribank
+        </div>
+        <div class="BanNHS spaced-span span-block">Ban Ngân hàng số - SĐT: 0243.6255318</div>
+        <div class="PhienBan spaced-span span-block">Phiên bản 1.0</div>
+    </footer>
+
+   
+    <script src="./scriptProject.js"></script>
+</body>
+</html>

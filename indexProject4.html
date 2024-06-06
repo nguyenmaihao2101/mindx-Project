@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleProject3.css">
+
+</head>
+<body>
+    <div class="header"> 
+        <div class="logo">
+            <img src="./Logo.png" alt="" class="center">    
+        </div>  
+
+        <div class="title gap16">
+            <img src="./MenuFold.png" alt="" class="center" height="16" width="16">
+            <h2 class="HeThong">HỆ THỐNG ĐÁNH GIÁ MỨC ĐỘ CHUYỂN ĐỔI SỐ - AGRIBANK DBI</h2> 
+        </div>
+
+        <div class="avatar">
+            <img src="./Ellipse 13.png" alt="" class="center">            
+        </div>
+    </div>        
+
+    <div class="body">
+        <div class="SideBar">
+            <button class="TruCot">
+                <img src="./icon-wrapper.png" alt="" class="center" height="14" width="14">
+                <a>Quản lý Trụ cột</a> 
+            </button>
+            <button class="BoChiSo">
+                <img src="./icon-wrapper2.png" alt="" class="center" height="14" width="14">
+                <a>Quản lý Bộ chỉ số</a> 
+            </button>
+            <button class="BaiDanhGia">
+                <img src="./icon-wrapper3.png" alt="" class="center" height="14" width="14">
+                <a>Quản lý Bài đánh giá</a> 
+            </button>
+            <button class="BaiViet">
+                <img src="./icon-wrapper4.png" alt="" class="center" height="14" width="14">
+                <a>Quản lý Bài viết</a> 
+            </button>
+            <button class="TaiKhoan">
+                <img src="./icon-wrapper5.png" alt="" class="center" height="14" width="14">
+                <a>Quản lý Tài khoản</a> 
+            </button>
+            <button class="BaoCao">
+                <img src="./icon-wrapper6.png" alt="" class="center" height="14" width="14">
+                <a>Báo cáo</a> 
+            </button>
+        </div>
+
+        <main class="container">
+            <p>Quản lý Trụ cột / Thêm mới Bộ chỉ số</p>
+            <div class="arrow">
+                <a href="./indexProject.html"><img src="./ArrowLeft.png" alt="" class="center" height="14" width="14"></a>
+                <b>Thêm mới Bộ chỉ số</b>         
+            </div>
+            <div class="mainContent">
+                <div class="tab">
+                    <a class="tab1">Thông tin chung</a>
+                    <a class="tab2"><a href="./indexProject3.html" style="text-decoration:none">Danh sách câu hỏi</a></a>
+                </div>
+
+                <div class="defaultContent">
+                    <a class="dateCreate">Ngày thêm:</a>
+                    <a class="dateValue">2024-04-24</a>
+                    <a class="actor">Người thêm:</a>
+                    <a class="actorName">ADMIN</a> 
+                    <a class="actor">Số câu hỏi:</a>
+                    <a class="actorName">320</a>    
+                </div>
+
+                <div class="updateContent">
+                    <div class="form-container">
+                        <div class="form-group">
+                            <label for="pillarName"><img src="./star.png">Tên Bộ chỉ số</label>
+                            <input type="pillarName" id="pillarName" name="pillarName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pillarCode"><img src="./star.png">Mã Bộ chỉ số</label>
+                            <input type="pillarCode" id="pillarCode" name="pillarCode" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="actor"><img src="./star.png">Người thực hiện</label>
+                            <input type="actor" id="pillarName" name="actor" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="period"><img src="./star.png">Ngày triển khai</label>
+                            <input type="period" id="pillarCode" name="period" required>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="status"><img src="./star.png">Trạng thái</label>
+                            <select id="status" name="status" required>
+                                <option value="ACTIVE">ACTIVE</option>
+                                <option value="INACTIVE">INACTIVE</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    
+                    <div class="form-button">
+                        <button class="back"><a href="./indexProject3.html" style="text-decoration:none">Quay lại</a></button>
+                        <button class="redSolidButn">Lưu</button> 
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer" style="margin-left: 500">
+        <div class="BanQuyen spaced-span span-block">
+            <img src="./copyright.png">Bản quyền thuộc Agribank
+        </div>
+        <div class="BanNHS spaced-span span-block">Ban Ngân hàng số - SĐT: 0243.6255318</div>
+        <div class="PhienBan spaced-span span-block">Phiên bản 1.0</div>
+    </footer>
+</body>
+</html>
